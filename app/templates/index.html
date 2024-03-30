@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Control de motor</title>
+</head>
+<body>
+    <div>
+        <form action="/" method="POST">
+            <button type="submit" name="action" value="i">Girar a la izquierda</button>
+            <button type="submit" name="action" value="p">Pausa</button>
+            <button type="submit" name="action" value="d">Girar a la derecha</button>
+        </form>
+    </div>
+    <div>
+        <img src={{gif}} alt="rueda" height="300" width="300">
+        <p>{{estado}}</p>
+    </div>
+</body>
+</html>
